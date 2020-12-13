@@ -38,7 +38,13 @@ img {
   grid-template-rows: min-content 1fr min-content;
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px; }
+  /*max-width: 1200px;*/ }
+  @media (max-width: 767px) {
+    .page__container {
+      max-width: 320px; } }
+  @media (min-width: 768px) {
+    .page__container {
+      max-width: 768px; } }
   @media (min-width: 1200px) {
     .page__container {
       max-width: 1200px;
