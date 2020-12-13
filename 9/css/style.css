@@ -1420,8 +1420,9 @@ img {
       margin-bottom: 0;
       margin-left: 0; } }
 
-.fieldset__paragraph--user-contacts .fieldset__input {
-  width: 315px; }
+@media (max-width: 767px) {
+  .fieldset__paragraph--user-contacts .fieldset__input {
+    width: 280px; } }
 
 @media (min-width: 1200px) {
   .fieldset__paragraph--user-contacts .fieldset__hidden {
