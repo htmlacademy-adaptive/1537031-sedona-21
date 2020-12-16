@@ -253,15 +253,15 @@ img {
 .intro--photo {
   width: 290px;
   margin-right: auto;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   margin-left: auto; }
   @media (min-width: 768px) {
     .intro--photo {
       width: 458px;
-      margin-bottom: 65px; } }
+      padding-bottom: 65px; } }
   @media (min-width: 1200px) {
     .intro--photo {
-      margin-bottom: 78px; } }
+      padding-bottom: 78px; } }
 
 .intro--photo .intro__title {
   margin-bottom: 29px; }
@@ -1063,7 +1063,9 @@ img {
       .fieldset--user-contacts {
         display: flex;
         flex-direction: row;
-        justify-content: space-between; } }
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 0; } }
   .fieldset--trip-rate {
     padding: 20px 0 27px 0; }
     @media (min-width: 768px) {
@@ -1377,7 +1379,7 @@ img {
         margin-bottom: 25px; } }
     @media (min-width: 1200px) {
       .fieldset__paragraph--user-contacts {
-        margin-bottom: 0; } }
+        margin-bottom: 10px; } }
     .fieldset__paragraph--user-contacts--phone::after {
       width: 18px;
       height: 18px;
@@ -1727,17 +1729,17 @@ img {
       padding-left: 60px; } }
 
 .promo-video__intro {
-  margin-bottom: 34px;
   width: 266px;
   margin-right: auto;
+  padding-bottom: 34px;
   margin-left: auto; }
   @media (min-width: 768px) {
     .promo-video__intro {
       width: 445px;
-      margin-bottom: 68px; } }
+      padding-bottom: 68px; } }
   @media (min-width: 1200px) {
     .promo-video__intro {
-      margin-bottom: 77px; } }
+      padding-bottom: 77px; } }
 
 .promo-video__intro .intro__title {
   margin-bottom: 28px; }
